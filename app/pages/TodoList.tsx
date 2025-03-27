@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { View, Text, TouchableOpacity, FlatList, StyleSheet } from 'react-native';
 import Checkbox from 'expo-checkbox';
 import { AntDesign } from '@expo/vector-icons';
@@ -17,7 +17,7 @@ const TodoList: React.FC<TodoListProps> = ({ tabKey }) => {
 
   const { tasks, toggleTaskCompletion } = useTaskContext();
 
-  const calculateRemainingTime = () => {
+  const calculateRemainingTime = useCallback(() => {
     const currentDate = new Date();
     const currentTime = currentDate.getHours() + currentDate.getMinutes() / 60;
 
@@ -30,7 +30,7 @@ const TodoList: React.FC<TodoListProps> = ({ tabKey }) => {
 
     const remainingTime = Math.max(24 - currentTime - totalMinutes / 60, 0);
     setHoursLeft(remainingTime);
-  };
+  }, [tasks]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -38,11 +38,11 @@ const TodoList: React.FC<TodoListProps> = ({ tabKey }) => {
     }, 60000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [calculateRemainingTime]);
 
   useEffect(() => {
     calculateRemainingTime();
-  }, [tasks]);
+  }, [tasks, calculateRemainingTime]);
 
   const openEditDeleteModal = (task: Task) => {
     setSelectedTask(task);

@@ -24,7 +24,7 @@ const TaskModal: React.FC<TaskModalProps> = ({
   const [timeRequired, setTimeRequired] = useState<string>('1 minute');
   const [taskCategory, setTaskCategory] = useState<string>(category);
 
-  const { tasks, addTask, editTask, deleteTask } = useTaskContext();
+  const { addTask, editTask, deleteTask } = useTaskContext();
 
   const handleAddTask = () => {
     if (text.trim()) {
