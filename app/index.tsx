@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { TabView, SceneMap } from 'react-native-tab-view';
 import { View, useWindowDimensions } from 'react-native';
-import List from './TodoList';
+import List from './components/TodoList';
 
 const renderScene = SceneMap({
   recurring: List,

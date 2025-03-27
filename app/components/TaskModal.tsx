@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Modal, Pressable, TouchableWithoutFeedback } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
+import TimePicker from './TimePicker';
 
 type Task = {
   id: string;
@@ -73,21 +74,10 @@ const TaskModal: React.FC<TaskModalProps> = ({
                   value={selectedTask.text}
                   onChangeText={(text) => setSelectedTask({ ...selectedTask, text })}
                 />
-                <Picker
+                <TimePicker
                   selectedValue={selectedTask.timeRequired}
                   onValueChange={(itemValue) => setSelectedTask({ ...selectedTask, timeRequired: itemValue })}
-                  style={styles.picker}
-                >
-                  {[1, 2, 3, 4, 5, 10, 15, 20, 25, 30, 45, 50, 55].map(min => (
-                    <Picker.Item key={min} label={`${min} minutes`} value={`${min} minutes`} />
-                  ))}
-                  {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(hour => (
-                    <Picker.Item key={hour} label={`${hour} hours`} value={`${hour} hours`} />
-                  ))}
-                  {[1, 2, 3, 4, 5, 6, 7].map(day => (
-                    <Picker.Item key={day} label={`${day} days`} value={`${day} days`} />
-                  ))}
-                </Picker>
+                />
                 <TouchableOpacity style={styles.addButton} onPress={editTask}>
                   <Text style={styles.addButtonText}>Save</Text>
                 </TouchableOpacity>
@@ -107,21 +97,10 @@ const TaskModal: React.FC<TaskModalProps> = ({
                   value={task}
                   onChangeText={setTask}
                 />
-                <Picker
+                <TimePicker
                   selectedValue={timeRequired}
                   onValueChange={setTimeRequired}
-                  style={styles.picker}
-                >
-                  {[1, 2, 3, 4, 5, 10, 15, 20, 25, 30, 45, 50, 55].map(min => (
-                    <Picker.Item key={min} label={`${min} minutes`} value={`${min} minutes`} />
-                  ))}
-                  {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(hour => (
-                    <Picker.Item key={hour} label={`${hour} hours`} value={`${hour} hours`} />
-                  ))}
-                  {[1, 2, 3, 4, 5, 6, 7].map(day => (
-                    <Picker.Item key={day} label={`${day} days`} value={`${day} days`} />
-                  ))}
-                </Picker>
+                />
                 <TouchableOpacity style={styles.addButton} onPress={addTask}>
                   <Text style={styles.addButtonText}>Add</Text>
                 </TouchableOpacity>
@@ -161,10 +140,6 @@ const styles = StyleSheet.create({
     borderColor: '#ccc',
     padding: 10,
     borderRadius: 5,
-    width: '100%',
-    marginBottom: 10,
-  },
-  picker: {
     width: '100%',
     marginBottom: 10,
   },
