@@ -38,11 +38,14 @@ const TodoList: React.FC = () => {
     }, 60000);
 
     return () => clearInterval(interval);
-  }, [tasks]);
+  }, []);
+
+  useEffect(() => {
+    calculateRemainingTime();
+  }, [tasks])
 
   const toggleTaskCompletion = (taskId: string) => {
     setTasks(tasks.map(task => task.id === taskId ? { ...task, completed: !task.completed } : task));
-    calculateRemainingTime();
   };
 
   const openEditDeleteModal = (task: Task) => {
