@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, TextInput, TouchableOpacity, FlatList, StyleSheet } from 'react-native';
+import React, { useState, useEffect, useContext } from 'react';
+import { View, Text, TouchableOpacity, FlatList, StyleSheet } from 'react-native';
 import Checkbox from 'expo-checkbox';
 import { AntDesign } from '@expo/vector-icons';
-import TaskModal from './TaskModal';
+import TaskModal from '../components/TaskModal';
+import { Task } from '../types';
+import { useTaskContext } from '../contexts';
 
-type Task = {
-  id: string;
-  text: string;
-  completed: boolean;
-  timeRequired: string;
-};
+interface TodoListProps {
+  tabKey: "recurring" | "urgent" | "future",
+}
 
-const TodoList: React.FC = () => {
-  const [tasks, setTasks] = useState<Task[]>([]);
+const TodoList: React.FC<TodoListProps> = ({ tabKey }) => {
   const [modalVisible, setModalVisible] = useState<boolean>(false);
   const [hoursLeft, setHoursLeft] = useState<number>(24);
   const [selectedTask, setSelectedTask] = useState<Task | null>(null);
+
+  const { tasks, toggleTaskCompletion } = useTaskContext();
 
   const calculateRemainingTime = () => {
     const currentDate = new Date();
@@ -24,8 +24,8 @@ const TodoList: React.FC = () => {
     const totalMinutes = tasks.filter(task => !task.completed).reduce((sum, task) => {
       const time = parseInt(task.timeRequired.split(' ')[0]);
       return task.timeRequired.includes('minute') ? sum + time :
-             task.timeRequired.includes('hour') ? sum + time * 60 : 
-             task.timeRequired.includes('day') ? sum + time * 1440 : sum;
+        task.timeRequired.includes('hour') ? sum + time * 60 :
+          task.timeRequired.includes('day') ? sum + time * 1440 : sum;
     }, 0);
 
     const remainingTime = Math.max(24 - currentTime - totalMinutes / 60, 0);
@@ -42,28 +42,26 @@ const TodoList: React.FC = () => {
 
   useEffect(() => {
     calculateRemainingTime();
-  }, [tasks])
-
-  const toggleTaskCompletion = (taskId: string) => {
-    setTasks(tasks.map(task => task.id === taskId ? { ...task, completed: !task.completed } : task));
-  };
+  }, [tasks]);
 
   const openEditDeleteModal = (task: Task) => {
     setSelectedTask(task);
     setModalVisible(true);
   };
 
+  const filteredTasks = tasks.filter((task) => task.category === tabKey);
+
   return (
     <View style={styles.container}>
       <Text style={styles.timeIndicator}>Hours left today: {hoursLeft.toFixed(1)}</Text>
 
       <FlatList
-        data={tasks}
+        data={filteredTasks}
         keyExtractor={item => item.id}
         renderItem={({ item }) => (
-          <TouchableOpacity 
-            style={styles.taskContainer} 
-            onPress={() => toggleTaskCompletion(item.id)} 
+          <TouchableOpacity
+            style={styles.taskContainer}
+            onPress={() => toggleTaskCompletion(item.id)}
             onLongPress={() => openEditDeleteModal(item)}
           >
             <Checkbox
@@ -87,9 +85,7 @@ const TodoList: React.FC = () => {
         setModalVisible={setModalVisible}
         selectedTask={selectedTask}
         setSelectedTask={setSelectedTask}
-        tasks={tasks}
-        setTasks={setTasks}
-        calculateRemainingTime={calculateRemainingTime}
+        category={tabKey}
       />
     </View>
   );

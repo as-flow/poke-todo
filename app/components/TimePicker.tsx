@@ -2,12 +2,12 @@ import React from 'react';
 import {StyleSheet } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 
-interface TaskModalProps {
+interface TimePickerProps {
   selectedValue: string,
   onValueChange: ((itemValue: string, itemIndex: number) => void),
 }
 
-const TimePicker: React.FC<TaskModalProps> = ({
+const TimePicker: React.FC<TimePickerProps> = ({
   selectedValue,
   onValueChange,
 }) => {

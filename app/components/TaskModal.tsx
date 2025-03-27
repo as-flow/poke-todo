@@ -1,23 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Modal, Pressable, TouchableWithoutFeedback } from 'react-native';
-import { Picker } from '@react-native-picker/picker';
 import TimePicker from './TimePicker';
-
-type Task = {
-  id: string;
-  text: string;
-  completed: boolean;
-  timeRequired: string;
-};
+import { Task } from '../types';
+import CategoryPicker from './CategoryPicker';
+import { useTaskContext } from '../contexts';
 
 interface TaskModalProps {
   modalVisible: boolean;
   setModalVisible: (visible: boolean) => void;
   selectedTask: Task | null;
   setSelectedTask: (task: Task | null) => void;
-  tasks: Task[];
-  setTasks: (tasks: Task[]) => void;
-  calculateRemainingTime: () => void;
+  category: Task["category"];
 }
 
 const TaskModal: React.FC<TaskModalProps> = ({
@@ -25,38 +18,36 @@ const TaskModal: React.FC<TaskModalProps> = ({
   setModalVisible,
   selectedTask,
   setSelectedTask,
-  tasks,
-  setTasks,
-  calculateRemainingTime,
+  category,
 }) => {
-  const [task, setTask] = useState<string>('');
+  const [text, setText] = useState<string>('');
   const [timeRequired, setTimeRequired] = useState<string>('1 minute');
+  const [taskCategory, setTaskCategory] = useState<string>(category);
 
-  const addTask = () => {
-    if (task.trim()) {
-      setTasks([...tasks, { id: Date.now().toString(), text: task, completed: false, timeRequired }]);
-      setTask('');
+  const { tasks, addTask, editTask, deleteTask } = useTaskContext();
+
+  const handleAddTask = () => {
+    if (text.trim()) {
+      addTask({ id: Date.now().toString(), text: text, completed: false, timeRequired, category });
+      setText('');
       setTimeRequired('1 minute');
       setModalVisible(false);
-      calculateRemainingTime();
     }
   };
 
-  const editTask = () => {
+  const handleEditTask = () => {
     if (selectedTask) {
-      setTasks(tasks.map(task => task.id === selectedTask.id ? { ...task, text: task.text, timeRequired } : task));
+      editTask({ ...selectedTask, text: text, timeRequired, category })
       setSelectedTask(null);
       setModalVisible(false);
-      calculateRemainingTime();
     }
   };
 
-  const deleteTask = () => {
+  const handleDeleteTask = () => {
     if (selectedTask) {
-      setTasks(tasks.filter(task => task.id !== selectedTask.id));
+      deleteTask(selectedTask.id);
       setSelectedTask(null);
       setModalVisible(false);
-      calculateRemainingTime();
     }
   };
 
@@ -78,13 +69,17 @@ const TaskModal: React.FC<TaskModalProps> = ({
                   selectedValue={selectedTask.timeRequired}
                   onValueChange={(itemValue) => setSelectedTask({ ...selectedTask, timeRequired: itemValue })}
                 />
-                <TouchableOpacity style={styles.addButton} onPress={editTask}>
+                <CategoryPicker
+                  selectedValue={selectedTask.category}
+                  onValueChange={(itemValue) => setSelectedTask({ ...selectedTask, category: itemValue as Task["category"] })}
+                />
+                <TouchableOpacity style={styles.addButton} onPress={handleEditTask}>
                   <Text style={styles.addButtonText}>Save</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.cancelButton} onPress={() => setModalVisible(false)}>
                   <Text style={styles.cancelButtonText}>Cancel</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.deleteButton} onPress={deleteTask}>
+                <TouchableOpacity style={styles.deleteButton} onPress={handleDeleteTask}>
                   <Text style={styles.deleteButtonText}>Delete</Text>
                 </TouchableOpacity>
               </>
@@ -94,14 +89,18 @@ const TaskModal: React.FC<TaskModalProps> = ({
                 <TextInput
                   style={styles.input}
                   placeholder="Enter task"
-                  value={task}
-                  onChangeText={setTask}
+                  value={text}
+                  onChangeText={setText}
                 />
                 <TimePicker
                   selectedValue={timeRequired}
                   onValueChange={setTimeRequired}
                 />
-                <TouchableOpacity style={styles.addButton} onPress={addTask}>
+                <CategoryPicker
+                  selectedValue={taskCategory}
+                  onValueChange={setTaskCategory}
+                />
+                <TouchableOpacity style={styles.addButton} onPress={handleAddTask}>
                   <Text style={styles.addButtonText}>Add</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.cancelButton} onPress={() => setModalVisible(false)}>
