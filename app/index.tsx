@@ -43,6 +43,7 @@ function App() {
         onIndexChange={setIndex}
         initialLayout={{ width: layout.width }}
         tabBarPosition='bottom'
+        swipeEnabled={false}
       />
     </TaskProvider>
   );
