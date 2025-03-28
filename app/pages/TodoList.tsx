@@ -61,17 +61,17 @@ const TodoList: React.FC<TodoListProps> = ({ tabKey }) => {
         renderItem={({ item }) => (
           <TouchableOpacity
             style={styles.taskContainer}
+            onPress={() => toggleTaskCompletion(item.id)}
             onLongPress={() => openEditDeleteModal(item)}
           >
+            <Checkbox
+              value={item.completed}
+              onValueChange={() => toggleTaskCompletion(item.id)}
+            />
             <View>
               <Text style={[styles.taskText, item.completed && styles.completed]}>{item.text}</Text>
               <Text style={styles.timeText}>Time: {item.timeRequired}</Text>
             </View>
-            <Checkbox
-            style={styles.checkbox}
-              value={item.completed}
-              onValueChange={() => toggleTaskCompletion(item.id)}
-            />
           </TouchableOpacity>
         )}
       />
@@ -107,7 +107,6 @@ const styles = StyleSheet.create({
   taskContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
     padding: 10,
     borderBottomWidth: 1,
     borderBottomColor: '#ccc',
@@ -115,11 +114,6 @@ const styles = StyleSheet.create({
   taskText: {
     fontSize: 18,
     marginLeft: 10,
-  },
-  checkbox: {
-    borderRadius: 30,
-    width: 30,
-    height: 30,
   },
   timeText: {
     fontSize: 14,

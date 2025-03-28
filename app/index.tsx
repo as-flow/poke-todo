@@ -42,6 +42,7 @@ function App() {
         renderScene={renderScene}
         onIndexChange={setIndex}
         initialLayout={{ width: layout.width }}
+        tabBarPosition='bottom'
       />
     </TaskProvider>
   );
