@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, FlatList, StyleSheet } from 'react-native
 import Checkbox from 'expo-checkbox';
 import { AntDesign } from '@expo/vector-icons';
 import TaskModal from '../components/TaskModal';
-import { Task } from '../types';
+import { Task } from '../../types';
 import { useTaskContext } from '../contexts/taskContext';
 
 interface TodoListProps {

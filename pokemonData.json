@@ -1,0 +1,3397 @@
+[
+  {
+    "name": "bulbasaur",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "base_experience": 64
+  },
+  {
+    "name": "charmander",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "base_experience": 62
+  },
+  {
+    "name": "squirtle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "base_experience": 63
+  },
+  {
+    "name": "caterpie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+    "base_experience": 39
+  },
+  {
+    "name": "weedle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+    "base_experience": 39
+  },
+  {
+    "name": "pidgey",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+    "base_experience": 50
+  },
+  {
+    "name": "rattata",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+    "base_experience": 51
+  },
+  {
+    "name": "spearow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+    "base_experience": 52
+  },
+  {
+    "name": "ekans",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+    "base_experience": 58
+  },
+  {
+    "name": "sandshrew",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+    "base_experience": 60
+  },
+  {
+    "name": "nidoran-f",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+    "base_experience": 55
+  },
+  {
+    "name": "nidoran-m",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+    "base_experience": 55
+  },
+  {
+    "name": "vulpix",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+    "base_experience": 60
+  },
+  {
+    "name": "zubat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+    "base_experience": 49
+  },
+  {
+    "name": "oddish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+    "base_experience": 64
+  },
+  {
+    "name": "paras",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+    "base_experience": 57
+  },
+  {
+    "name": "venonat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+    "base_experience": 61
+  },
+  {
+    "name": "diglett",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+    "base_experience": 53
+  },
+  {
+    "name": "meowth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+    "base_experience": 58
+  },
+  {
+    "name": "psyduck",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+    "base_experience": 64
+  },
+  {
+    "name": "mankey",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+    "base_experience": 61
+  },
+  {
+    "name": "growlithe",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+    "base_experience": 70
+  },
+  {
+    "name": "poliwag",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+    "base_experience": 60
+  },
+  {
+    "name": "abra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+    "base_experience": 62
+  },
+  {
+    "name": "machop",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+    "base_experience": 61
+  },
+  {
+    "name": "bellsprout",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+    "base_experience": 60
+  },
+  {
+    "name": "tentacool",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+    "base_experience": 67
+  },
+  {
+    "name": "geodude",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+    "base_experience": 60
+  },
+  {
+    "name": "ponyta",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+    "base_experience": 82
+  },
+  {
+    "name": "slowpoke",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+    "base_experience": 63
+  },
+  {
+    "name": "magnemite",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+    "base_experience": 65
+  },
+  {
+    "name": "farfetchd",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+    "base_experience": 132
+  },
+  {
+    "name": "doduo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+    "base_experience": 62
+  },
+  {
+    "name": "seel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+    "base_experience": 65
+  },
+  {
+    "name": "grimer",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+    "base_experience": 65
+  },
+  {
+    "name": "shellder",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+    "base_experience": 61
+  },
+  {
+    "name": "gastly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+    "base_experience": 62
+  },
+  {
+    "name": "onix",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+    "base_experience": 77
+  },
+  {
+    "name": "drowzee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+    "base_experience": 66
+  },
+  {
+    "name": "krabby",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+    "base_experience": 65
+  },
+  {
+    "name": "voltorb",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+    "base_experience": 66
+  },
+  {
+    "name": "exeggcute",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+    "base_experience": 65
+  },
+  {
+    "name": "cubone",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+    "base_experience": 64
+  },
+  {
+    "name": "lickitung",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+    "base_experience": 77
+  },
+  {
+    "name": "koffing",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+    "base_experience": 68
+  },
+  {
+    "name": "rhyhorn",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+    "base_experience": 69
+  },
+  {
+    "name": "tangela",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+    "base_experience": 87
+  },
+  {
+    "name": "kangaskhan",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+    "base_experience": 172
+  },
+  {
+    "name": "horsea",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+    "base_experience": 59
+  },
+  {
+    "name": "goldeen",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+    "base_experience": 64
+  },
+  {
+    "name": "staryu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+    "base_experience": 68
+  },
+  {
+    "name": "scyther",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+    "base_experience": 100
+  },
+  {
+    "name": "pinsir",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+    "base_experience": 175
+  },
+  {
+    "name": "tauros",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+    "base_experience": 172
+  },
+  {
+    "name": "magikarp",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+    "base_experience": 40
+  },
+  {
+    "name": "lapras",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+    "base_experience": 187
+  },
+  {
+    "name": "ditto",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+    "base_experience": 101
+  },
+  {
+    "name": "eevee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+    "base_experience": 65
+  },
+  {
+    "name": "porygon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+    "base_experience": 79
+  },
+  {
+    "name": "omanyte",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+    "base_experience": 71
+  },
+  {
+    "name": "kabuto",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+    "base_experience": 71
+  },
+  {
+    "name": "aerodactyl",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+    "base_experience": 180
+  },
+  {
+    "name": "articuno",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+    "base_experience": 290
+  },
+  {
+    "name": "zapdos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+    "base_experience": 290
+  },
+  {
+    "name": "moltres",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+    "base_experience": 290
+  },
+  {
+    "name": "dratini",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+    "base_experience": 60
+  },
+  {
+    "name": "mewtwo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "base_experience": 340
+  },
+  {
+    "name": "mew",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+    "base_experience": 300
+  },
+  {
+    "name": "chikorita",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+    "base_experience": 64
+  },
+  {
+    "name": "cyndaquil",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+    "base_experience": 62
+  },
+  {
+    "name": "totodile",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
+    "base_experience": 63
+  },
+  {
+    "name": "sentret",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
+    "base_experience": 43
+  },
+  {
+    "name": "hoothoot",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
+    "base_experience": 52
+  },
+  {
+    "name": "ledyba",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
+    "base_experience": 53
+  },
+  {
+    "name": "spinarak",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
+    "base_experience": 50
+  },
+  {
+    "name": "chinchou",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png",
+    "base_experience": 66
+  },
+  {
+    "name": "pichu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
+    "base_experience": 41
+  },
+  {
+    "name": "cleffa",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
+    "base_experience": 44
+  },
+  {
+    "name": "igglybuff",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
+    "base_experience": 42
+  },
+  {
+    "name": "togepi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
+    "base_experience": 49
+  },
+  {
+    "name": "natu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
+    "base_experience": 64
+  },
+  {
+    "name": "mareep",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png",
+    "base_experience": 56
+  },
+  {
+    "name": "hoppip",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png",
+    "base_experience": 50
+  },
+  {
+    "name": "aipom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
+    "base_experience": 72
+  },
+  {
+    "name": "sunkern",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png",
+    "base_experience": 36
+  },
+  {
+    "name": "yanma",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
+    "base_experience": 78
+  },
+  {
+    "name": "wooper",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
+    "base_experience": 42
+  },
+  {
+    "name": "murkrow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
+    "base_experience": 81
+  },
+  {
+    "name": "misdreavus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
+    "base_experience": 87
+  },
+  {
+    "name": "unown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png",
+    "base_experience": 118
+  },
+  {
+    "name": "girafarig",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
+    "base_experience": 159
+  },
+  {
+    "name": "pineco",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png",
+    "base_experience": 58
+  },
+  {
+    "name": "dunsparce",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png",
+    "base_experience": 145
+  },
+  {
+    "name": "gligar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png",
+    "base_experience": 86
+  },
+  {
+    "name": "snubbull",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png",
+    "base_experience": 60
+  },
+  {
+    "name": "qwilfish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png",
+    "base_experience": 88
+  },
+  {
+    "name": "shuckle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
+    "base_experience": 177
+  },
+  {
+    "name": "heracross",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
+    "base_experience": 175
+  },
+  {
+    "name": "sneasel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
+    "base_experience": 86
+  },
+  {
+    "name": "teddiursa",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png",
+    "base_experience": 66
+  },
+  {
+    "name": "slugma",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png",
+    "base_experience": 50
+  },
+  {
+    "name": "swinub",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png",
+    "base_experience": 50
+  },
+  {
+    "name": "corsola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png",
+    "base_experience": 144
+  },
+  {
+    "name": "remoraid",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
+    "base_experience": 60
+  },
+  {
+    "name": "delibird",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png",
+    "base_experience": 116
+  },
+  {
+    "name": "skarmory",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png",
+    "base_experience": 163
+  },
+  {
+    "name": "houndour",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
+    "base_experience": 66
+  },
+  {
+    "name": "phanpy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png",
+    "base_experience": 66
+  },
+  {
+    "name": "stantler",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png",
+    "base_experience": 163
+  },
+  {
+    "name": "smeargle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+    "base_experience": 88
+  },
+  {
+    "name": "tyrogue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png",
+    "base_experience": 42
+  },
+  {
+    "name": "smoochum",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png",
+    "base_experience": 61
+  },
+  {
+    "name": "elekid",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
+    "base_experience": 72
+  },
+  {
+    "name": "magby",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
+    "base_experience": 73
+  },
+  {
+    "name": "miltank",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png",
+    "base_experience": 172
+  },
+  {
+    "name": "raikou",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png",
+    "base_experience": 290
+  },
+  {
+    "name": "entei",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png",
+    "base_experience": 290
+  },
+  {
+    "name": "suicune",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png",
+    "base_experience": 290
+  },
+  {
+    "name": "larvitar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png",
+    "base_experience": 60
+  },
+  {
+    "name": "lugia",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
+    "base_experience": 340
+  },
+  {
+    "name": "ho-oh",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png",
+    "base_experience": 340
+  },
+  {
+    "name": "celebi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png",
+    "base_experience": 300
+  },
+  {
+    "name": "treecko",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
+    "base_experience": 62
+  },
+  {
+    "name": "torchic",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
+    "base_experience": 62
+  },
+  {
+    "name": "mudkip",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png",
+    "base_experience": 62
+  },
+  {
+    "name": "poochyena",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png",
+    "base_experience": 56
+  },
+  {
+    "name": "zigzagoon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png",
+    "base_experience": 56
+  },
+  {
+    "name": "wurmple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
+    "base_experience": 56
+  },
+  {
+    "name": "lotad",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png",
+    "base_experience": 44
+  },
+  {
+    "name": "seedot",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png",
+    "base_experience": 44
+  },
+  {
+    "name": "taillow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png",
+    "base_experience": 54
+  },
+  {
+    "name": "wingull",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
+    "base_experience": 54
+  },
+  {
+    "name": "ralts",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
+    "base_experience": 40
+  },
+  {
+    "name": "surskit",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png",
+    "base_experience": 54
+  },
+  {
+    "name": "shroomish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png",
+    "base_experience": 59
+  },
+  {
+    "name": "slakoth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png",
+    "base_experience": 56
+  },
+  {
+    "name": "nincada",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png",
+    "base_experience": 53
+  },
+  {
+    "name": "whismur",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png",
+    "base_experience": 48
+  },
+  {
+    "name": "makuhita",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
+    "base_experience": 47
+  },
+  {
+    "name": "azurill",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
+    "base_experience": 38
+  },
+  {
+    "name": "nosepass",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
+    "base_experience": 75
+  },
+  {
+    "name": "skitty",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png",
+    "base_experience": 52
+  },
+  {
+    "name": "sableye",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
+    "base_experience": 133
+  },
+  {
+    "name": "mawile",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
+    "base_experience": 133
+  },
+  {
+    "name": "aron",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png",
+    "base_experience": 66
+  },
+  {
+    "name": "meditite",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
+    "base_experience": 56
+  },
+  {
+    "name": "electrike",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png",
+    "base_experience": 59
+  },
+  {
+    "name": "plusle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png",
+    "base_experience": 142
+  },
+  {
+    "name": "minun",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png",
+    "base_experience": 142
+  },
+  {
+    "name": "volbeat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png",
+    "base_experience": 151
+  },
+  {
+    "name": "illumise",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png",
+    "base_experience": 151
+  },
+  {
+    "name": "gulpin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png",
+    "base_experience": 60
+  },
+  {
+    "name": "carvanha",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png",
+    "base_experience": 61
+  },
+  {
+    "name": "wailmer",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png",
+    "base_experience": 80
+  },
+  {
+    "name": "numel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png",
+    "base_experience": 61
+  },
+  {
+    "name": "torkoal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png",
+    "base_experience": 165
+  },
+  {
+    "name": "spoink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png",
+    "base_experience": 66
+  },
+  {
+    "name": "spinda",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png",
+    "base_experience": 126
+  },
+  {
+    "name": "trapinch",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png",
+    "base_experience": 58
+  },
+  {
+    "name": "cacnea",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png",
+    "base_experience": 67
+  },
+  {
+    "name": "swablu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
+    "base_experience": 62
+  },
+  {
+    "name": "zangoose",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/335.png",
+    "base_experience": 160
+  },
+  {
+    "name": "seviper",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png",
+    "base_experience": 160
+  },
+  {
+    "name": "lunatone",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png",
+    "base_experience": 161
+  },
+  {
+    "name": "solrock",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png",
+    "base_experience": 161
+  },
+  {
+    "name": "barboach",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
+    "base_experience": 58
+  },
+  {
+    "name": "corphish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png",
+    "base_experience": 62
+  },
+  {
+    "name": "baltoy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png",
+    "base_experience": 60
+  },
+  {
+    "name": "lileep",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png",
+    "base_experience": 71
+  },
+  {
+    "name": "anorith",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png",
+    "base_experience": 71
+  },
+  {
+    "name": "feebas",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
+    "base_experience": 40
+  },
+  {
+    "name": "castform",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png",
+    "base_experience": 147
+  },
+  {
+    "name": "kecleon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png",
+    "base_experience": 154
+  },
+  {
+    "name": "shuppet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png",
+    "base_experience": 59
+  },
+  {
+    "name": "duskull",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
+    "base_experience": 59
+  },
+  {
+    "name": "tropius",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png",
+    "base_experience": 161
+  },
+  {
+    "name": "absol",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
+    "base_experience": 163
+  },
+  {
+    "name": "wynaut",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png",
+    "base_experience": 52
+  },
+  {
+    "name": "snorunt",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png",
+    "base_experience": 60
+  },
+  {
+    "name": "spheal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/363.png",
+    "base_experience": 58
+  },
+  {
+    "name": "clamperl",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png",
+    "base_experience": 69
+  },
+  {
+    "name": "relicanth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png",
+    "base_experience": 170
+  },
+  {
+    "name": "luvdisc",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png",
+    "base_experience": 116
+  },
+  {
+    "name": "bagon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png",
+    "base_experience": 60
+  },
+  {
+    "name": "beldum",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png",
+    "base_experience": 60
+  },
+  {
+    "name": "regirock",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png",
+    "base_experience": 290
+  },
+  {
+    "name": "regice",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png",
+    "base_experience": 290
+  },
+  {
+    "name": "registeel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png",
+    "base_experience": 290
+  },
+  {
+    "name": "latias",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png",
+    "base_experience": 300
+  },
+  {
+    "name": "latios",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png",
+    "base_experience": 300
+  },
+  {
+    "name": "kyogre",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
+    "base_experience": 335
+  },
+  {
+    "name": "groudon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png",
+    "base_experience": 335
+  },
+  {
+    "name": "rayquaza",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
+    "base_experience": 340
+  },
+  {
+    "name": "jirachi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png",
+    "base_experience": 300
+  },
+  {
+    "name": "deoxys-normal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png",
+    "base_experience": 270
+  },
+  {
+    "name": "turtwig",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
+    "base_experience": 64
+  },
+  {
+    "name": "chimchar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
+    "base_experience": 62
+  },
+  {
+    "name": "piplup",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
+    "base_experience": 63
+  },
+  {
+    "name": "starly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
+    "base_experience": 49
+  },
+  {
+    "name": "bidoof",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
+    "base_experience": 50
+  },
+  {
+    "name": "kricketot",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
+    "base_experience": 39
+  },
+  {
+    "name": "shinx",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png",
+    "base_experience": 53
+  },
+  {
+    "name": "budew",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
+    "base_experience": 56
+  },
+  {
+    "name": "cranidos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
+    "base_experience": 70
+  },
+  {
+    "name": "shieldon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
+    "base_experience": 70
+  },
+  {
+    "name": "burmy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
+    "base_experience": 45
+  },
+  {
+    "name": "combee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
+    "base_experience": 49
+  },
+  {
+    "name": "pachirisu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png",
+    "base_experience": 142
+  },
+  {
+    "name": "buizel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
+    "base_experience": 66
+  },
+  {
+    "name": "cherubi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
+    "base_experience": 55
+  },
+  {
+    "name": "shellos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
+    "base_experience": 65
+  },
+  {
+    "name": "drifloon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
+    "base_experience": 70
+  },
+  {
+    "name": "buneary",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
+    "base_experience": 70
+  },
+  {
+    "name": "glameow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
+    "base_experience": 62
+  },
+  {
+    "name": "chingling",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
+    "base_experience": 57
+  },
+  {
+    "name": "stunky",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
+    "base_experience": 66
+  },
+  {
+    "name": "bronzor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
+    "base_experience": 60
+  },
+  {
+    "name": "bonsly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
+    "base_experience": 58
+  },
+  {
+    "name": "mime-jr",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
+    "base_experience": 62
+  },
+  {
+    "name": "happiny",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
+    "base_experience": 110
+  },
+  {
+    "name": "chatot",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png",
+    "base_experience": 144
+  },
+  {
+    "name": "spiritomb",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
+    "base_experience": 170
+  },
+  {
+    "name": "gible",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
+    "base_experience": 60
+  },
+  {
+    "name": "munchlax",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
+    "base_experience": 78
+  },
+  {
+    "name": "riolu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
+    "base_experience": 57
+  },
+  {
+    "name": "hippopotas",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
+    "base_experience": 66
+  },
+  {
+    "name": "skorupi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
+    "base_experience": 66
+  },
+  {
+    "name": "croagunk",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
+    "base_experience": 60
+  },
+  {
+    "name": "carnivine",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png",
+    "base_experience": 159
+  },
+  {
+    "name": "finneon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
+    "base_experience": 66
+  },
+  {
+    "name": "mantyke",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
+    "base_experience": 69
+  },
+  {
+    "name": "snover",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
+    "base_experience": 67
+  },
+  {
+    "name": "rotom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png",
+    "base_experience": 154
+  },
+  {
+    "name": "uxie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
+    "base_experience": 290
+  },
+  {
+    "name": "mesprit",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png",
+    "base_experience": 290
+  },
+  {
+    "name": "azelf",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png",
+    "base_experience": 290
+  },
+  {
+    "name": "dialga",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
+    "base_experience": 340
+  },
+  {
+    "name": "palkia",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png",
+    "base_experience": 340
+  },
+  {
+    "name": "heatran",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png",
+    "base_experience": 300
+  },
+  {
+    "name": "regigigas",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png",
+    "base_experience": 335
+  },
+  {
+    "name": "giratina-altered",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png",
+    "base_experience": 340
+  },
+  {
+    "name": "cresselia",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png",
+    "base_experience": 300
+  },
+  {
+    "name": "phione",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
+    "base_experience": 216
+  },
+  {
+    "name": "manaphy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png",
+    "base_experience": 270
+  },
+  {
+    "name": "darkrai",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/491.png",
+    "base_experience": 270
+  },
+  {
+    "name": "shaymin-land",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492.png",
+    "base_experience": 270
+  },
+  {
+    "name": "arceus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493.png",
+    "base_experience": 324
+  },
+  {
+    "name": "victini",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png",
+    "base_experience": 300
+  },
+  {
+    "name": "snivy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
+    "base_experience": 62
+  },
+  {
+    "name": "tepig",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png",
+    "base_experience": 62
+  },
+  {
+    "name": "oshawott",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png",
+    "base_experience": 62
+  },
+  {
+    "name": "patrat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png",
+    "base_experience": 51
+  },
+  {
+    "name": "lillipup",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png",
+    "base_experience": 55
+  },
+  {
+    "name": "purrloin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png",
+    "base_experience": 56
+  },
+  {
+    "name": "pansage",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png",
+    "base_experience": 63
+  },
+  {
+    "name": "pansear",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png",
+    "base_experience": 63
+  },
+  {
+    "name": "panpour",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
+    "base_experience": 63
+  },
+  {
+    "name": "munna",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png",
+    "base_experience": 58
+  },
+  {
+    "name": "pidove",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/519.png",
+    "base_experience": 53
+  },
+  {
+    "name": "blitzle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png",
+    "base_experience": 59
+  },
+  {
+    "name": "roggenrola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png",
+    "base_experience": 56
+  },
+  {
+    "name": "woobat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png",
+    "base_experience": 65
+  },
+  {
+    "name": "drilbur",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/529.png",
+    "base_experience": 66
+  },
+  {
+    "name": "audino",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png",
+    "base_experience": 390
+  },
+  {
+    "name": "timburr",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png",
+    "base_experience": 61
+  },
+  {
+    "name": "tympole",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png",
+    "base_experience": 59
+  },
+  {
+    "name": "throh",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/538.png",
+    "base_experience": 163
+  },
+  {
+    "name": "sawk",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/539.png",
+    "base_experience": 163
+  },
+  {
+    "name": "sewaddle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png",
+    "base_experience": 62
+  },
+  {
+    "name": "venipede",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png",
+    "base_experience": 52
+  },
+  {
+    "name": "cottonee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/546.png",
+    "base_experience": 56
+  },
+  {
+    "name": "petilil",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/548.png",
+    "base_experience": 56
+  },
+  {
+    "name": "basculin-red-striped",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png",
+    "base_experience": 161
+  },
+  {
+    "name": "sandile",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/551.png",
+    "base_experience": 58
+  },
+  {
+    "name": "darumaka",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png",
+    "base_experience": 63
+  },
+  {
+    "name": "maractus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png",
+    "base_experience": 161
+  },
+  {
+    "name": "dwebble",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png",
+    "base_experience": 65
+  },
+  {
+    "name": "scraggy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png",
+    "base_experience": 70
+  },
+  {
+    "name": "sigilyph",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png",
+    "base_experience": 172
+  },
+  {
+    "name": "yamask",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png",
+    "base_experience": 61
+  },
+  {
+    "name": "tirtouga",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png",
+    "base_experience": 71
+  },
+  {
+    "name": "archen",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png",
+    "base_experience": 71
+  },
+  {
+    "name": "trubbish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png",
+    "base_experience": 66
+  },
+  {
+    "name": "zorua",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png",
+    "base_experience": 66
+  },
+  {
+    "name": "minccino",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png",
+    "base_experience": 60
+  },
+  {
+    "name": "gothita",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png",
+    "base_experience": 58
+  },
+  {
+    "name": "solosis",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png",
+    "base_experience": 58
+  },
+  {
+    "name": "ducklett",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png",
+    "base_experience": 61
+  },
+  {
+    "name": "vanillite",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/582.png",
+    "base_experience": 61
+  },
+  {
+    "name": "deerling",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
+    "base_experience": 67
+  },
+  {
+    "name": "emolga",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png",
+    "base_experience": 150
+  },
+  {
+    "name": "karrablast",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png",
+    "base_experience": 63
+  },
+  {
+    "name": "foongus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png",
+    "base_experience": 59
+  },
+  {
+    "name": "frillish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png",
+    "base_experience": 67
+  },
+  {
+    "name": "alomomola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png",
+    "base_experience": 165
+  },
+  {
+    "name": "joltik",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
+    "base_experience": 64
+  },
+  {
+    "name": "ferroseed",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png",
+    "base_experience": 61
+  },
+  {
+    "name": "klink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png",
+    "base_experience": 60
+  },
+  {
+    "name": "tynamo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png",
+    "base_experience": 55
+  },
+  {
+    "name": "elgyem",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png",
+    "base_experience": 67
+  },
+  {
+    "name": "litwick",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png",
+    "base_experience": 55
+  },
+  {
+    "name": "axew",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png",
+    "base_experience": 64
+  },
+  {
+    "name": "cubchoo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png",
+    "base_experience": 61
+  },
+  {
+    "name": "cryogonal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png",
+    "base_experience": 180
+  },
+  {
+    "name": "shelmet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png",
+    "base_experience": 61
+  },
+  {
+    "name": "stunfisk",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
+    "base_experience": 165
+  },
+  {
+    "name": "mienfoo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png",
+    "base_experience": 70
+  },
+  {
+    "name": "druddigon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/621.png",
+    "base_experience": 170
+  },
+  {
+    "name": "golett",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png",
+    "base_experience": 61
+  },
+  {
+    "name": "pawniard",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png",
+    "base_experience": 68
+  },
+  {
+    "name": "bouffalant",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png",
+    "base_experience": 172
+  },
+  {
+    "name": "rufflet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png",
+    "base_experience": 70
+  },
+  {
+    "name": "vullaby",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png",
+    "base_experience": 74
+  },
+  {
+    "name": "heatmor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png",
+    "base_experience": 169
+  },
+  {
+    "name": "durant",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png",
+    "base_experience": 169
+  },
+  {
+    "name": "deino",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png",
+    "base_experience": 60
+  },
+  {
+    "name": "larvesta",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png",
+    "base_experience": 72
+  },
+  {
+    "name": "cobalion",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png",
+    "base_experience": 290
+  },
+  {
+    "name": "terrakion",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png",
+    "base_experience": 290
+  },
+  {
+    "name": "virizion",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png",
+    "base_experience": 290
+  },
+  {
+    "name": "tornadus-incarnate",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png",
+    "base_experience": 290
+  },
+  {
+    "name": "thundurus-incarnate",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png",
+    "base_experience": 290
+  },
+  {
+    "name": "reshiram",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png",
+    "base_experience": 340
+  },
+  {
+    "name": "zekrom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
+    "base_experience": 340
+  },
+  {
+    "name": "landorus-incarnate",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png",
+    "base_experience": 300
+  },
+  {
+    "name": "kyurem",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png",
+    "base_experience": 330
+  },
+  {
+    "name": "keldeo-ordinary",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647.png",
+    "base_experience": 290
+  },
+  {
+    "name": "meloetta-aria",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/648.png",
+    "base_experience": 270
+  },
+  {
+    "name": "genesect",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png",
+    "base_experience": 300
+  },
+  {
+    "name": "chespin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png",
+    "base_experience": 63
+  },
+  {
+    "name": "fennekin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
+    "base_experience": 61
+  },
+  {
+    "name": "froakie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
+    "base_experience": 63
+  },
+  {
+    "name": "bunnelby",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png",
+    "base_experience": 47
+  },
+  {
+    "name": "fletchling",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png",
+    "base_experience": 56
+  },
+  {
+    "name": "scatterbug",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png",
+    "base_experience": 40
+  },
+  {
+    "name": "litleo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png",
+    "base_experience": 74
+  },
+  {
+    "name": "flabebe",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png",
+    "base_experience": 61
+  },
+  {
+    "name": "skiddo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png",
+    "base_experience": 70
+  },
+  {
+    "name": "pancham",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
+    "base_experience": 70
+  },
+  {
+    "name": "furfrou",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png",
+    "base_experience": 165
+  },
+  {
+    "name": "espurr",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png",
+    "base_experience": 71
+  },
+  {
+    "name": "honedge",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png",
+    "base_experience": 65
+  },
+  {
+    "name": "spritzee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
+    "base_experience": 68
+  },
+  {
+    "name": "swirlix",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
+    "base_experience": 68
+  },
+  {
+    "name": "inkay",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png",
+    "base_experience": 58
+  },
+  {
+    "name": "binacle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png",
+    "base_experience": 61
+  },
+  {
+    "name": "skrelp",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png",
+    "base_experience": 64
+  },
+  {
+    "name": "clauncher",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png",
+    "base_experience": 66
+  },
+  {
+    "name": "helioptile",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png",
+    "base_experience": 58
+  },
+  {
+    "name": "tyrunt",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png",
+    "base_experience": 72
+  },
+  {
+    "name": "amaura",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png",
+    "base_experience": 72
+  },
+  {
+    "name": "hawlucha",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png",
+    "base_experience": 175
+  },
+  {
+    "name": "dedenne",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png",
+    "base_experience": 151
+  },
+  {
+    "name": "carbink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png",
+    "base_experience": 100
+  },
+  {
+    "name": "goomy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png",
+    "base_experience": 60
+  },
+  {
+    "name": "klefki",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png",
+    "base_experience": 165
+  },
+  {
+    "name": "phantump",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png",
+    "base_experience": 62
+  },
+  {
+    "name": "pumpkaboo-average",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png",
+    "base_experience": 67
+  },
+  {
+    "name": "bergmite",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
+    "base_experience": 61
+  },
+  {
+    "name": "noibat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
+    "base_experience": 49
+  },
+  {
+    "name": "xerneas",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
+    "base_experience": 340
+  },
+  {
+    "name": "yveltal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png",
+    "base_experience": 340
+  },
+  {
+    "name": "zygarde-50",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png",
+    "base_experience": 300
+  },
+  {
+    "name": "diancie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png",
+    "base_experience": 300
+  },
+  {
+    "name": "hoopa",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png",
+    "base_experience": 270
+  },
+  {
+    "name": "volcanion",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png",
+    "base_experience": 300
+  },
+  {
+    "name": "rowlet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png",
+    "base_experience": 64
+  },
+  {
+    "name": "litten",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png",
+    "base_experience": 64
+  },
+  {
+    "name": "popplio",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/728.png",
+    "base_experience": 64
+  },
+  {
+    "name": "pikipek",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png",
+    "base_experience": 53
+  },
+  {
+    "name": "yungoos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png",
+    "base_experience": 51
+  },
+  {
+    "name": "grubbin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png",
+    "base_experience": 60
+  },
+  {
+    "name": "crabrawler",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png",
+    "base_experience": 68
+  },
+  {
+    "name": "oricorio-baile",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/741.png",
+    "base_experience": 167
+  },
+  {
+    "name": "cutiefly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/742.png",
+    "base_experience": 61
+  },
+  {
+    "name": "rockruff",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png",
+    "base_experience": 56
+  },
+  {
+    "name": "wishiwashi-solo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png",
+    "base_experience": 61
+  },
+  {
+    "name": "mareanie",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png",
+    "base_experience": 61
+  },
+  {
+    "name": "mudbray",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png",
+    "base_experience": 77
+  },
+  {
+    "name": "dewpider",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png",
+    "base_experience": 54
+  },
+  {
+    "name": "fomantis",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png",
+    "base_experience": 50
+  },
+  {
+    "name": "morelull",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png",
+    "base_experience": 57
+  },
+  {
+    "name": "salandit",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png",
+    "base_experience": 64
+  },
+  {
+    "name": "stufful",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png",
+    "base_experience": 68
+  },
+  {
+    "name": "bounsweet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png",
+    "base_experience": 42
+  },
+  {
+    "name": "comfey",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
+    "base_experience": 170
+  },
+  {
+    "name": "oranguru",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png",
+    "base_experience": 172
+  },
+  {
+    "name": "passimian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/766.png",
+    "base_experience": 172
+  },
+  {
+    "name": "wimpod",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png",
+    "base_experience": 46
+  },
+  {
+    "name": "sandygast",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png",
+    "base_experience": 64
+  },
+  {
+    "name": "pyukumuku",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png",
+    "base_experience": 144
+  },
+  {
+    "name": "type-null",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png",
+    "base_experience": 107
+  },
+  {
+    "name": "minior-red-meteor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png",
+    "base_experience": 154
+  },
+  {
+    "name": "komala",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/775.png",
+    "base_experience": 168
+  },
+  {
+    "name": "turtonator",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/776.png",
+    "base_experience": 170
+  },
+  {
+    "name": "togedemaru",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/777.png",
+    "base_experience": 152
+  },
+  {
+    "name": "mimikyu-disguised",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png",
+    "base_experience": 167
+  },
+  {
+    "name": "bruxish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/779.png",
+    "base_experience": 166
+  },
+  {
+    "name": "drampa",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/780.png",
+    "base_experience": 170
+  },
+  {
+    "name": "dhelmise",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png",
+    "base_experience": 181
+  },
+  {
+    "name": "jangmo-o",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/782.png",
+    "base_experience": 60
+  },
+  {
+    "name": "tapu-koko",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png",
+    "base_experience": 285
+  },
+  {
+    "name": "tapu-lele",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png",
+    "base_experience": 285
+  },
+  {
+    "name": "tapu-bulu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png",
+    "base_experience": 285
+  },
+  {
+    "name": "tapu-fini",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png",
+    "base_experience": 285
+  },
+  {
+    "name": "cosmog",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png",
+    "base_experience": 40
+  },
+  {
+    "name": "nihilego",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png",
+    "base_experience": 285
+  },
+  {
+    "name": "buzzwole",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/794.png",
+    "base_experience": 285
+  },
+  {
+    "name": "pheromosa",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png",
+    "base_experience": 285
+  },
+  {
+    "name": "xurkitree",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png",
+    "base_experience": 285
+  },
+  {
+    "name": "celesteela",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png",
+    "base_experience": 285
+  },
+  {
+    "name": "kartana",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png",
+    "base_experience": 285
+  },
+  {
+    "name": "guzzlord",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/799.png",
+    "base_experience": 285
+  },
+  {
+    "name": "necrozma",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/800.png",
+    "base_experience": 300
+  },
+  {
+    "name": "magearna",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/801.png",
+    "base_experience": 300
+  },
+  {
+    "name": "marshadow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/802.png",
+    "base_experience": 300
+  },
+  {
+    "name": "poipole",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png",
+    "base_experience": 210
+  },
+  {
+    "name": "stakataka",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/805.png",
+    "base_experience": 285
+  },
+  {
+    "name": "blacephalon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/806.png",
+    "base_experience": 285
+  },
+  {
+    "name": "zeraora",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/807.png",
+    "base_experience": 300
+  },
+  {
+    "name": "meltan",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/808.png",
+    "base_experience": 150
+  },
+  {
+    "name": "grookey",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png",
+    "base_experience": 62
+  },
+  {
+    "name": "scorbunny",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/813.png",
+    "base_experience": 62
+  },
+  {
+    "name": "sobble",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/816.png",
+    "base_experience": 62
+  },
+  {
+    "name": "skwovet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/819.png",
+    "base_experience": 55
+  },
+  {
+    "name": "rookidee",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/821.png",
+    "base_experience": 49
+  },
+  {
+    "name": "blipbug",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/824.png",
+    "base_experience": 36
+  },
+  {
+    "name": "nickit",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png",
+    "base_experience": 49
+  },
+  {
+    "name": "gossifleur",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png",
+    "base_experience": 50
+  },
+  {
+    "name": "wooloo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/831.png",
+    "base_experience": 122
+  },
+  {
+    "name": "chewtle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png",
+    "base_experience": 57
+  },
+  {
+    "name": "yamper",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png",
+    "base_experience": 54
+  },
+  {
+    "name": "rolycoly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/837.png",
+    "base_experience": 48
+  },
+  {
+    "name": "applin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/840.png",
+    "base_experience": 52
+  },
+  {
+    "name": "silicobra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/843.png",
+    "base_experience": 63
+  },
+  {
+    "name": "cramorant",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/845.png",
+    "base_experience": 166
+  },
+  {
+    "name": "arrokuda",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/846.png",
+    "base_experience": 56
+  },
+  {
+    "name": "toxel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/848.png",
+    "base_experience": 48
+  },
+  {
+    "name": "sizzlipede",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/850.png",
+    "base_experience": 61
+  },
+  {
+    "name": "clobbopus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/852.png",
+    "base_experience": 62
+  },
+  {
+    "name": "sinistea",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/854.png",
+    "base_experience": 62
+  },
+  {
+    "name": "hatenna",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png",
+    "base_experience": 53
+  },
+  {
+    "name": "impidimp",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/859.png",
+    "base_experience": 53
+  },
+  {
+    "name": "milcery",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/868.png",
+    "base_experience": 54
+  },
+  {
+    "name": "falinks",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/870.png",
+    "base_experience": 165
+  },
+  {
+    "name": "pincurchin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/871.png",
+    "base_experience": 152
+  },
+  {
+    "name": "snom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/872.png",
+    "base_experience": 37
+  },
+  {
+    "name": "stonjourner",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/874.png",
+    "base_experience": 165
+  },
+  {
+    "name": "eiscue-ice",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/875.png",
+    "base_experience": 165
+  },
+  {
+    "name": "indeedee-male",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/876.png",
+    "base_experience": 166
+  },
+  {
+    "name": "morpeko-full-belly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/877.png",
+    "base_experience": 153
+  },
+  {
+    "name": "cufant",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/878.png",
+    "base_experience": 66
+  },
+  {
+    "name": "dracozolt",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/880.png",
+    "base_experience": 177
+  },
+  {
+    "name": "arctozolt",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/881.png",
+    "base_experience": 177
+  },
+  {
+    "name": "dracovish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/882.png",
+    "base_experience": 177
+  },
+  {
+    "name": "arctovish",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/883.png",
+    "base_experience": 177
+  },
+  {
+    "name": "duraludon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/884.png",
+    "base_experience": 187
+  },
+  {
+    "name": "dreepy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/885.png",
+    "base_experience": 54
+  },
+  {
+    "name": "zacian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/888.png",
+    "base_experience": 335
+  },
+  {
+    "name": "zamazenta",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/889.png",
+    "base_experience": 335
+  },
+  {
+    "name": "eternatus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/890.png",
+    "base_experience": 345
+  },
+  {
+    "name": "kubfu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/891.png",
+    "base_experience": 77
+  },
+  {
+    "name": "zarude",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/893.png",
+    "base_experience": 300
+  },
+  {
+    "name": "regieleki",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/894.png",
+    "base_experience": 290
+  },
+  {
+    "name": "regidrago",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/895.png",
+    "base_experience": 290
+  },
+  {
+    "name": "glastrier",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/896.png",
+    "base_experience": 290
+  },
+  {
+    "name": "spectrier",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/897.png",
+    "base_experience": 290
+  },
+  {
+    "name": "calyrex",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/898.png",
+    "base_experience": 250
+  },
+  {
+    "name": "enamorus-incarnate",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/905.png",
+    "base_experience": 116
+  },
+  {
+    "name": "sprigatito",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+    "base_experience": 62
+  },
+  {
+    "name": "fuecoco",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png",
+    "base_experience": 62
+  },
+  {
+    "name": "quaxly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/912.png",
+    "base_experience": 62
+  },
+  {
+    "name": "lechonk",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/915.png",
+    "base_experience": 51
+  },
+  {
+    "name": "tarountula",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/917.png",
+    "base_experience": 42
+  },
+  {
+    "name": "nymble",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/919.png",
+    "base_experience": 42
+  },
+  {
+    "name": "pawmi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/921.png",
+    "base_experience": 48
+  },
+  {
+    "name": "tandemaus",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/924.png",
+    "base_experience": 61
+  },
+  {
+    "name": "fidough",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png",
+    "base_experience": 62
+  },
+  {
+    "name": "smoliv",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/928.png",
+    "base_experience": 52
+  },
+  {
+    "name": "squawkabilly-green-plumage",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/931.png",
+    "base_experience": 146
+  },
+  {
+    "name": "nacli",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png",
+    "base_experience": 56
+  },
+  {
+    "name": "charcadet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png",
+    "base_experience": 51
+  },
+  {
+    "name": "tadbulb",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/938.png",
+    "base_experience": 54
+  },
+  {
+    "name": "wattrel",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/940.png",
+    "base_experience": 56
+  },
+  {
+    "name": "maschiff",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/942.png",
+    "base_experience": 68
+  },
+  {
+    "name": "shroodle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/944.png",
+    "base_experience": 58
+  },
+  {
+    "name": "bramblin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png",
+    "base_experience": 55
+  },
+  {
+    "name": "toedscool",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png",
+    "base_experience": 67
+  },
+  {
+    "name": "klawf",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/950.png",
+    "base_experience": 158
+  },
+  {
+    "name": "capsakid",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/951.png",
+    "base_experience": 61
+  },
+  {
+    "name": "rellor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/953.png",
+    "base_experience": 54
+  },
+  {
+    "name": "flittle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/955.png",
+    "base_experience": 51
+  },
+  {
+    "name": "tinkatink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/957.png",
+    "base_experience": 59
+  },
+  {
+    "name": "wiglett",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/960.png",
+    "base_experience": 49
+  },
+  {
+    "name": "bombirdier",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/962.png",
+    "base_experience": 243
+  },
+  {
+    "name": "finizen",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/963.png",
+    "base_experience": 63
+  },
+  {
+    "name": "varoom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/965.png",
+    "base_experience": 60
+  },
+  {
+    "name": "cyclizar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/967.png",
+    "base_experience": 175
+  },
+  {
+    "name": "orthworm",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/968.png",
+    "base_experience": 240
+  },
+  {
+    "name": "glimmet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/969.png",
+    "base_experience": 70
+  },
+  {
+    "name": "greavard",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/971.png",
+    "base_experience": 58
+  },
+  {
+    "name": "flamigo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/973.png",
+    "base_experience": 175
+  },
+  {
+    "name": "cetoddle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/974.png",
+    "base_experience": 67
+  },
+  {
+    "name": "veluza",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/976.png",
+    "base_experience": 167
+  },
+  {
+    "name": "dondozo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/977.png",
+    "base_experience": 265
+  },
+  {
+    "name": "tatsugiri-curly",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/978.png",
+    "base_experience": 166
+  },
+  {
+    "name": "great-tusk",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/984.png",
+    "base_experience": 285
+  },
+  {
+    "name": "scream-tail",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/985.png",
+    "base_experience": 285
+  },
+  {
+    "name": "brute-bonnet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/986.png",
+    "base_experience": 285
+  },
+  {
+    "name": "flutter-mane",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/987.png",
+    "base_experience": 285
+  },
+  {
+    "name": "slither-wing",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/988.png",
+    "base_experience": 285
+  },
+  {
+    "name": "sandy-shocks",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/989.png",
+    "base_experience": 285
+  },
+  {
+    "name": "iron-treads",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/990.png",
+    "base_experience": 285
+  },
+  {
+    "name": "iron-bundle",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/991.png",
+    "base_experience": 285
+  },
+  {
+    "name": "iron-hands",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/992.png",
+    "base_experience": 285
+  },
+  {
+    "name": "iron-jugulis",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/993.png",
+    "base_experience": 285
+  },
+  {
+    "name": "iron-moth",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/994.png",
+    "base_experience": 285
+  },
+  {
+    "name": "iron-thorns",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/995.png",
+    "base_experience": 285
+  },
+  {
+    "name": "frigibax",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png",
+    "base_experience": 64
+  },
+  {
+    "name": "gimmighoul",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/999.png",
+    "base_experience": 60
+  },
+  {
+    "name": "wo-chien",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png",
+    "base_experience": 285
+  },
+  {
+    "name": "chien-pao",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png",
+    "base_experience": 285
+  },
+  {
+    "name": "ting-lu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1003.png",
+    "base_experience": 285
+  },
+  {
+    "name": "chi-yu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1004.png",
+    "base_experience": 285
+  },
+  {
+    "name": "roaring-moon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png",
+    "base_experience": 295
+  },
+  {
+    "name": "iron-valiant",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1006.png",
+    "base_experience": 295
+  },
+  {
+    "name": "koraidon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1007.png",
+    "base_experience": 335
+  },
+  {
+    "name": "miraidon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1008.png",
+    "base_experience": 335
+  },
+  {
+    "name": "walking-wake",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1009.png",
+    "base_experience": 295
+  },
+  {
+    "name": "iron-leaves",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1010.png",
+    "base_experience": 295
+  },
+  {
+    "name": "poltchageist",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1012.png",
+    "base_experience": 62
+  },
+  {
+    "name": "okidogi",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1014.png",
+    "base_experience": 278
+  },
+  {
+    "name": "munkidori",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1015.png",
+    "base_experience": 278
+  },
+  {
+    "name": "fezandipiti",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1016.png",
+    "base_experience": 278
+  },
+  {
+    "name": "ogerpon",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1017.png",
+    "base_experience": 275
+  },
+  {
+    "name": "gouging-fire",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1020.png",
+    "base_experience": 295
+  },
+  {
+    "name": "raging-bolt",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1021.png",
+    "base_experience": 295
+  },
+  {
+    "name": "iron-boulder",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1022.png",
+    "base_experience": 295
+  },
+  {
+    "name": "iron-crown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1023.png",
+    "base_experience": 295
+  },
+  {
+    "name": "terapagos",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1024.png",
+    "base_experience": 90
+  },
+  {
+    "name": "pecharunt",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1025.png",
+    "base_experience": 300
+  },
+  {
+    "name": "deoxys-attack",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10001.png",
+    "base_experience": 270
+  },
+  {
+    "name": "deoxys-defense",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10002.png",
+    "base_experience": 270
+  },
+  {
+    "name": "deoxys-speed",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10003.png",
+    "base_experience": 270
+  },
+  {
+    "name": "shaymin-sky",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10006.png",
+    "base_experience": 270
+  },
+  {
+    "name": "giratina-origin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10007.png",
+    "base_experience": 340
+  },
+  {
+    "name": "rotom-heat",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10008.png",
+    "base_experience": 182
+  },
+  {
+    "name": "rotom-wash",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10009.png",
+    "base_experience": 182
+  },
+  {
+    "name": "rotom-frost",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10010.png",
+    "base_experience": 182
+  },
+  {
+    "name": "rotom-fan",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10011.png",
+    "base_experience": 182
+  },
+  {
+    "name": "rotom-mow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10012.png",
+    "base_experience": 182
+  },
+  {
+    "name": "castform-sunny",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10013.png",
+    "base_experience": 147
+  },
+  {
+    "name": "castform-rainy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10014.png",
+    "base_experience": 147
+  },
+  {
+    "name": "castform-snowy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10015.png",
+    "base_experience": 147
+  },
+  {
+    "name": "basculin-blue-striped",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10016.png",
+    "base_experience": 161
+  },
+  {
+    "name": "meloetta-pirouette",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10018.png",
+    "base_experience": 270
+  },
+  {
+    "name": "tornadus-therian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10019.png",
+    "base_experience": 290
+  },
+  {
+    "name": "thundurus-therian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10020.png",
+    "base_experience": 290
+  },
+  {
+    "name": "landorus-therian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10021.png",
+    "base_experience": 300
+  },
+  {
+    "name": "kyurem-black",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10022.png",
+    "base_experience": 350
+  },
+  {
+    "name": "kyurem-white",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10023.png",
+    "base_experience": 350
+  },
+  {
+    "name": "keldeo-resolute",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10024.png",
+    "base_experience": 290
+  },
+  {
+    "name": "pumpkaboo-small",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10027.png",
+    "base_experience": 67
+  },
+  {
+    "name": "pumpkaboo-large",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10028.png",
+    "base_experience": 67
+  },
+  {
+    "name": "pumpkaboo-super",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10029.png",
+    "base_experience": 67
+  },
+  {
+    "name": "kangaskhan-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10039.png",
+    "base_experience": 207
+  },
+  {
+    "name": "pinsir-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10040.png",
+    "base_experience": 210
+  },
+  {
+    "name": "aerodactyl-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10042.png",
+    "base_experience": 215
+  },
+  {
+    "name": "mewtwo-mega-x",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10043.png",
+    "base_experience": 351
+  },
+  {
+    "name": "mewtwo-mega-y",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10044.png",
+    "base_experience": 351
+  },
+  {
+    "name": "heracross-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10047.png",
+    "base_experience": 210
+  },
+  {
+    "name": "mawile-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10052.png",
+    "base_experience": 168
+  },
+  {
+    "name": "absol-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10057.png",
+    "base_experience": 198
+  },
+  {
+    "name": "latias-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10062.png",
+    "base_experience": 315
+  },
+  {
+    "name": "latios-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10063.png",
+    "base_experience": 315
+  },
+  {
+    "name": "sableye-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10066.png",
+    "base_experience": 168
+  },
+  {
+    "name": "audino-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10069.png",
+    "base_experience": 425
+  },
+  {
+    "name": "diancie-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10075.png",
+    "base_experience": 315
+  },
+  {
+    "name": "kyogre-primal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10077.png",
+    "base_experience": 347
+  },
+  {
+    "name": "groudon-primal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10078.png",
+    "base_experience": 347
+  },
+  {
+    "name": "rayquaza-mega",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10079.png",
+    "base_experience": 351
+  },
+  {
+    "name": "hoopa-unbound",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10086.png",
+    "base_experience": 306
+  },
+  {
+    "name": "rattata-alola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10091.png",
+    "base_experience": 51
+  },
+  {
+    "name": "sandshrew-alola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10101.png",
+    "base_experience": 60
+  },
+  {
+    "name": "vulpix-alola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10103.png",
+    "base_experience": 60
+  },
+  {
+    "name": "diglett-alola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10105.png",
+    "base_experience": 53
+  },
+  {
+    "name": "meowth-alola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10107.png",
+    "base_experience": 58
+  },
+  {
+    "name": "geodude-alola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10109.png",
+    "base_experience": 60
+  },
+  {
+    "name": "grimer-alola",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10112.png",
+    "base_experience": 65
+  },
+  {
+    "name": "zygarde-10-power-construct",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10118.png",
+    "base_experience": 243
+  },
+  {
+    "name": "zygarde-50-power-construct",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10119.png",
+    "base_experience": 300
+  },
+  {
+    "name": "zygarde-complete",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10120.png",
+    "base_experience": 354
+  },
+  {
+    "name": "oricorio-pom-pom",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10123.png",
+    "base_experience": 167
+  },
+  {
+    "name": "oricorio-pau",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10124.png",
+    "base_experience": 167
+  },
+  {
+    "name": "oricorio-sensu",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10125.png",
+    "base_experience": 167
+  },
+  {
+    "name": "wishiwashi-school",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10127.png",
+    "base_experience": 217
+  },
+  {
+    "name": "minior-orange-meteor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10130.png",
+    "base_experience": 154
+  },
+  {
+    "name": "minior-yellow-meteor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10131.png",
+    "base_experience": 154
+  },
+  {
+    "name": "minior-green-meteor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10132.png",
+    "base_experience": 154
+  },
+  {
+    "name": "minior-blue-meteor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10133.png",
+    "base_experience": 154
+  },
+  {
+    "name": "minior-indigo-meteor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10134.png",
+    "base_experience": 154
+  },
+  {
+    "name": "minior-violet-meteor",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10135.png",
+    "base_experience": 154
+  },
+  {
+    "name": "minior-red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10136.png",
+    "base_experience": 175
+  },
+  {
+    "name": "minior-orange",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10137.png",
+    "base_experience": 175
+  },
+  {
+    "name": "minior-yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10138.png",
+    "base_experience": 175
+  },
+  {
+    "name": "minior-green",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10139.png",
+    "base_experience": 175
+  },
+  {
+    "name": "minior-blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10140.png",
+    "base_experience": 175
+  },
+  {
+    "name": "minior-indigo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10141.png",
+    "base_experience": 175
+  },
+  {
+    "name": "minior-violet",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10142.png",
+    "base_experience": 175
+  },
+  {
+    "name": "mimikyu-busted",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10143.png",
+    "base_experience": 167
+  },
+  {
+    "name": "mimikyu-totem-disguised",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10144.png",
+    "base_experience": 167
+  },
+  {
+    "name": "mimikyu-totem-busted",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10145.png",
+    "base_experience": 167
+  },
+  {
+    "name": "magearna-original",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10147.png",
+    "base_experience": 300
+  },
+  {
+    "name": "rockruff-own-tempo",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10151.png",
+    "base_experience": 56
+  },
+  {
+    "name": "togedemaru-totem",
+    "sprite": null,
+    "base_experience": 152
+  },
+  {
+    "name": "necrozma-dusk",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10155.png",
+    "base_experience": 340
+  },
+  {
+    "name": "necrozma-dawn",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10156.png",
+    "base_experience": 340
+  },
+  {
+    "name": "necrozma-ultra",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10157.png",
+    "base_experience": 339
+  },
+  {
+    "name": "eevee-starter",
+    "sprite": null,
+    "base_experience": 87
+  },
+  {
+    "name": "meowth-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10161.png",
+    "base_experience": 58
+  },
+  {
+    "name": "ponyta-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10162.png",
+    "base_experience": 82
+  },
+  {
+    "name": "slowpoke-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10164.png",
+    "base_experience": 63
+  },
+  {
+    "name": "farfetchd-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10166.png",
+    "base_experience": 132
+  },
+  {
+    "name": "articuno-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10169.png",
+    "base_experience": 290
+  },
+  {
+    "name": "zapdos-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10170.png",
+    "base_experience": 290
+  },
+  {
+    "name": "moltres-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10171.png",
+    "base_experience": 290
+  },
+  {
+    "name": "corsola-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10173.png",
+    "base_experience": 144
+  },
+  {
+    "name": "zigzagoon-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10174.png",
+    "base_experience": 56
+  },
+  {
+    "name": "darumaka-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10176.png",
+    "base_experience": 63
+  },
+  {
+    "name": "yamask-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10179.png",
+    "base_experience": 61
+  },
+  {
+    "name": "stunfisk-galar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10180.png",
+    "base_experience": 165
+  },
+  {
+    "name": "zygarde-10",
+    "sprite": null,
+    "base_experience": 243
+  },
+  {
+    "name": "cramorant-gulping",
+    "sprite": null,
+    "base_experience": 166
+  },
+  {
+    "name": "cramorant-gorging",
+    "sprite": null,
+    "base_experience": 166
+  },
+  {
+    "name": "eiscue-noice",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10185.png",
+    "base_experience": 165
+  },
+  {
+    "name": "indeedee-female",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10186.png",
+    "base_experience": 166
+  },
+  {
+    "name": "morpeko-hangry",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10187.png",
+    "base_experience": 153
+  },
+  {
+    "name": "zacian-crowned",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10188.png",
+    "base_experience": 360
+  },
+  {
+    "name": "zamazenta-crowned",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10189.png",
+    "base_experience": 360
+  },
+  {
+    "name": "eternatus-eternamax",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10190.png",
+    "base_experience": 563
+  },
+  {
+    "name": "zarude-dada",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10192.png",
+    "base_experience": 300
+  },
+  {
+    "name": "calyrex-ice",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10193.png",
+    "base_experience": 340
+  },
+  {
+    "name": "calyrex-shadow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10194.png",
+    "base_experience": 340
+  },
+  {
+    "name": "meowth-gmax",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10200.png",
+    "base_experience": 58
+  },
+  {
+    "name": "lapras-gmax",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10204.png",
+    "base_experience": 187
+  },
+  {
+    "name": "eevee-gmax",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10205.png",
+    "base_experience": 65
+  },
+  {
+    "name": "duraludon-gmax",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10225.png",
+    "base_experience": 187
+  },
+  {
+    "name": "growlithe-hisui",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10229.png",
+    "base_experience": 70
+  },
+  {
+    "name": "voltorb-hisui",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png",
+    "base_experience": 66
+  },
+  {
+    "name": "qwilfish-hisui",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10234.png",
+    "base_experience": 88
+  },
+  {
+    "name": "sneasel-hisui",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10235.png",
+    "base_experience": 86
+  },
+  {
+    "name": "zorua-hisui",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10238.png",
+    "base_experience": 66
+  },
+  {
+    "name": "dialga-origin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10245.png",
+    "base_experience": 306
+  },
+  {
+    "name": "palkia-origin",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10246.png",
+    "base_experience": 306
+  },
+  {
+    "name": "basculin-white-striped",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10247.png",
+    "base_experience": 161
+  },
+  {
+    "name": "enamorus-therian",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10249.png",
+    "base_experience": 116
+  },
+  {
+    "name": "tauros-paldea-combat-breed",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10250.png",
+    "base_experience": 172
+  },
+  {
+    "name": "tauros-paldea-blaze-breed",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10251.png",
+    "base_experience": 172
+  },
+  {
+    "name": "tauros-paldea-aqua-breed",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10252.png",
+    "base_experience": 172
+  },
+  {
+    "name": "wooper-paldea",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10253.png",
+    "base_experience": 42
+  },
+  {
+    "name": "tatsugiri-droopy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10258.png",
+    "base_experience": 166
+  },
+  {
+    "name": "tatsugiri-stretchy",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10259.png",
+    "base_experience": 166
+  },
+  {
+    "name": "squawkabilly-blue-plumage",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10260.png",
+    "base_experience": 146
+  },
+  {
+    "name": "squawkabilly-yellow-plumage",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10261.png",
+    "base_experience": 146
+  },
+  {
+    "name": "squawkabilly-white-plumage",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10262.png",
+    "base_experience": 146
+  },
+  {
+    "name": "gimmighoul-roaming",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10263.png",
+    "base_experience": 60
+  },
+  {
+    "name": "koraidon-limited-build",
+    "sprite": null,
+    "base_experience": 335
+  },
+  {
+    "name": "koraidon-sprinting-build",
+    "sprite": null,
+    "base_experience": 335
+  },
+  {
+    "name": "koraidon-swimming-build",
+    "sprite": null,
+    "base_experience": 335
+  },
+  {
+    "name": "koraidon-gliding-build",
+    "sprite": null,
+    "base_experience": 335
+  },
+  {
+    "name": "miraidon-low-power-mode",
+    "sprite": null,
+    "base_experience": 335
+  },
+  {
+    "name": "miraidon-drive-mode",
+    "sprite": null,
+    "base_experience": 335
+  },
+  {
+    "name": "miraidon-aquatic-mode",
+    "sprite": null,
+    "base_experience": 335
+  },
+  {
+    "name": "miraidon-glide-mode",
+    "sprite": null,
+    "base_experience": 335
+  },
+  {
+    "name": "ogerpon-wellspring-mask",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10273.png",
+    "base_experience": 275
+  },
+  {
+    "name": "ogerpon-hearthflame-mask",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10274.png",
+    "base_experience": 275
+  },
+  {
+    "name": "ogerpon-cornerstone-mask",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10275.png",
+    "base_experience": 275
+  },
+  {
+    "name": "terapagos-terastal",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10276.png",
+    "base_experience": 90
+  },
+  {
+    "name": "terapagos-stellar",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10277.png",
+    "base_experience": 90
+  }
+]

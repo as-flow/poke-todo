@@ -3,6 +3,7 @@ import { TabView } from 'react-native-tab-view';
 import { useWindowDimensions } from 'react-native';
 import TodoList from './pages/TodoList';
 import { TaskProvider } from './contexts/taskContext';
+import PokeList from './pages/PokeList';
 
 const renderScene = ({ route }: { route: { key: string, title: string } }) => {
   switch (route.key) {
@@ -12,6 +13,8 @@ const renderScene = ({ route }: { route: { key: string, title: string } }) => {
       return <TodoList tabKey='urgent' />;
     case 'future':
       return <TodoList tabKey='future' />;
+    case 'pokemon':
+      return <PokeList />;
     default:
       return null;
   }
@@ -21,6 +24,7 @@ export const routes = [
   { key: 'recurring', title: 'Recurring' },
   { key: 'urgent', title: 'Urgent' },
   { key: 'future', title: 'Future' },
+  { key: 'pokemon', title: 'Pokemon' },
 ];
 
 function App() {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Modal, Pressable, TouchableWithoutFeedback } from 'react-native';
 import TimePicker from './TimePicker';
-import { Task } from '../types';
+import { Task } from '../../types';
 import CategoryPicker from './CategoryPicker';
 import { useTaskContext } from '../contexts/taskContext';
 

@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect, ReactNode, useContext, useRef } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { Task } from '../types';
+import { Task } from '../../types';
 
 interface TaskContextProps {
   tasks: Task[];

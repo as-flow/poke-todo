@@ -5,3 +5,9 @@ export type Task = {
   timeRequired: string;
   category: "recurring" | "urgent" | "future";
 };
+
+export interface Pokemon {
+  name: string;
+  sprite: string;
+  base_experience: number;
+}
