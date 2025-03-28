@@ -4,6 +4,7 @@ import { useWindowDimensions } from 'react-native';
 import TodoList from './pages/TodoList';
 import { TaskProvider } from './contexts/taskContext';
 import PokeList from './pages/PokeList';
+import Settings from './pages/Settings';
 
 const renderScene = ({ route }: { route: { key: string, title: string } }) => {
   switch (route.key) {
@@ -15,6 +16,8 @@ const renderScene = ({ route }: { route: { key: string, title: string } }) => {
       return <TodoList tabKey='future' />;
     case 'pokemon':
       return <PokeList />;
+    case 'settings':
+      return <Settings />;
     default:
       return null;
   }
@@ -25,6 +28,7 @@ export const routes = [
   { key: 'urgent', title: 'Urgent' },
   { key: 'future', title: 'Future' },
   { key: 'pokemon', title: 'Pokemon' },
+  { key: 'settings', title: 'Settings' },
 ];
 
 function App() {
