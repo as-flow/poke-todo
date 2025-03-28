@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect, ReactNode, useContext, useRef } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { Task } from './types';
+import { Task } from '../types';
 
 interface TaskContextProps {
   tasks: Task[];
@@ -58,7 +58,7 @@ export const TaskProvider: React.FC<TaskProviderProps> = ({ children }) => {
 
   const editTask = (task: Task) => {
     setTasks((prevTasks) =>
-      prevTasks.map((t) => (t.id === task.id ? { ...t, text: task.text, timeRequired: task.timeRequired } : t))
+      prevTasks.map((t) => (t.id === task.id ? { ...task } : t))
     );
   };
 

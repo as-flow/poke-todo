@@ -4,7 +4,7 @@ import Checkbox from 'expo-checkbox';
 import { AntDesign } from '@expo/vector-icons';
 import TaskModal from '../components/TaskModal';
 import { Task } from '../types';
-import { useTaskContext } from '../contexts';
+import { useTaskContext } from '../contexts/taskContext';
 
 interface TodoListProps {
   tabKey: "recurring" | "urgent" | "future",

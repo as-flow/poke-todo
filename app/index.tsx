@@ -2,7 +2,7 @@ import React from 'react';
 import { TabView } from 'react-native-tab-view';
 import { useWindowDimensions } from 'react-native';
 import TodoList from './pages/TodoList';
-import { TaskProvider } from './contexts';
+import { TaskProvider } from './contexts/taskContext';
 
 const renderScene = ({ route }: { route: { key: string, title: string } }) => {
   switch (route.key) {

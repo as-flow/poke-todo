@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, StyleSheet, Modal, Pressable, 
 import TimePicker from './TimePicker';
 import { Task } from '../types';
 import CategoryPicker from './CategoryPicker';
-import { useTaskContext } from '../contexts';
+import { useTaskContext } from '../contexts/taskContext';
 
 interface TaskModalProps {
   modalVisible: boolean;
@@ -37,7 +37,7 @@ const TaskModal: React.FC<TaskModalProps> = ({
 
   const handleEditTask = () => {
     if (selectedTask) {
-      editTask({ ...selectedTask, text: text, timeRequired, category })
+      editTask({ ...selectedTask })
       setSelectedTask(null);
       setModalVisible(false);
     }
