@@ -1,26 +1,55 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, Modal, Pressable, FlatList } from 'react-native';
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  Modal,
+  Pressable,
+  FlatList,
+  AppState
+} from 'react-native';
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 
 export default function Focus() {
-  const [duration, setDuration] = useState(25); // in minutes
+  const [duration, setDuration] = useState(25); // minutes
+  const [endTime, setEndTime] = useState<number | null>(null);
   const [remainingTime, setRemainingTime] = useState(duration * 60);
   const [isRunning, setIsRunning] = useState(false);
   const [showPicker, setShowPicker] = useState(false);
 
+  // Background-safe timer
   useEffect(() => {
-    let timer: NodeJS.Timeout;
+    let interval: NodeJS.Timeout;
 
-    if (isRunning && remainingTime > 0) {
-      timer = setInterval(() => {
-        setRemainingTime(prev => prev - 1);
+    if (isRunning && endTime) {
+      interval = setInterval(() => {
+        const now = Date.now();
+        const diff = Math.max(0, Math.floor((endTime - now) / 1000));
+        setRemainingTime(diff);
+
+        if (diff <= 0) {
+          setIsRunning(false);
+          setEndTime(null);
+        }
       }, 1000);
-    } else if (remainingTime === 0) {
-      setIsRunning(false);
     }
 
-    return () => clearInterval(timer);
-  }, [isRunning, remainingTime]);
+    return () => clearInterval(interval);
+  }, [isRunning, endTime]);
+
+  // Handle app returning from background
+  useEffect(() => {
+    const sub = AppState.addEventListener('change', (state) => {
+      if (state === 'active' && isRunning && endTime) {
+        const now = Date.now();
+        const diff = Math.max(0, Math.floor((endTime - now) / 1000));
+        setRemainingTime(diff);
+      }
+    });
+
+    return () => sub.remove();
+  }, [isRunning, endTime]);
 
   const formatTime = (secs: number) => {
     const m = Math.floor(secs / 60);
@@ -29,13 +58,16 @@ export default function Focus() {
   };
 
   const handleStart = () => {
-    setRemainingTime(duration * 60);
+    const now = Date.now();
+    const end = now + duration * 60 * 1000 + 1000;
+    setEndTime(end);
     setIsRunning(true);
   };
 
   const handleGiveUp = () => {
     setIsRunning(false);
     setRemainingTime(duration * 60);
+    setEndTime(null);
   };
 
   const handleSelectDuration = (value: number) => {
@@ -46,7 +78,7 @@ export default function Focus() {
 
   return (
     <View style={styles.container}>
-      {/* Circle Timer */}
+      {/* Circular Timer */}
       <TouchableOpacity onPress={() => !isRunning && setShowPicker(true)}>
         <AnimatedCircularProgress
           size={220}
@@ -65,7 +97,7 @@ export default function Focus() {
         </AnimatedCircularProgress>
       </TouchableOpacity>
 
-      {/* Start / Give up Button */}
+      {/* Start / Give Up Button */}
       <TouchableOpacity
         style={[styles.button, isRunning && styles.giveUp]}
         onPress={isRunning ? handleGiveUp : handleStart}
