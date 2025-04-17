@@ -6,7 +6,7 @@ export type Task = {
   category: "recurring" | "urgent" | "future";
 };
 
-export interface Pokemon {
+export interface PokemonType {
   name: string;
   sprite: string;
   base_experience: number;

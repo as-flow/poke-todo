@@ -10,7 +10,7 @@ interface TodoListProps {
   tabKey: "recurring" | "urgent" | "future",
 }
 
-const TodoList: React.FC<TodoListProps> = ({ tabKey }) => {
+const Tasks: React.FC<TodoListProps> = ({ tabKey }) => {
   const [modalVisible, setModalVisible] = useState<boolean>(false);
   const [hoursLeft, setHoursLeft] = useState<number>(24);
   const [selectedTask, setSelectedTask] = useState<Task | null>(null);
@@ -142,4 +142,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default TodoList;
+export default Tasks;

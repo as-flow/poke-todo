@@ -2,7 +2,7 @@ import React from 'react';
 import { View, TouchableOpacity, Text, StyleSheet } from 'react-native';
 import { exportAllDataToClipboard, importAllDataFromClipboard } from '../utils/asyncStorageClipboard';
 
-const Settings: React.FC = () => {
+const Profile: React.FC = () => {
   return (
     <View>
       <TouchableOpacity style={styles.button} onPress={exportAllDataToClipboard}>
@@ -30,4 +30,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Settings;
+export default Profile;

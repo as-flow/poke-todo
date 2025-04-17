@@ -1,4 +1,4 @@
-import { Pokemon } from "@/types";
+import { PokemonType } from "@/types";
 import React, { useEffect, useState } from "react";
 import { View, Text, Image, TouchableOpacity, FlatList, StyleSheet } from "react-native";
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -19,8 +19,8 @@ const BALLS: PokeBall[] = [
 
 const STORAGE_KEY = "caught_pokemon";
 
-const PokeList: React.FC = () => {
-  const [caughtPokemon, setCaughtPokemon] = useState<Pokemon[]>([]);
+const Pokemon: React.FC = () => {
+  const [caughtPokemon, setCaughtPokemon] = useState<PokemonType[]>([]);
 
   // Load caught Pokémon from AsyncStorage
   useEffect(() => {
@@ -138,4 +138,4 @@ const styles = StyleSheet.create({
   releaseButtonText: { color: "#fff", fontWeight: "bold" },
 });
 
-export default PokeList;
+export default Pokemon;
