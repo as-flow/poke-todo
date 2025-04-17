@@ -41,11 +41,11 @@ export default function RootLayout() {
             },
           })}
         >
-          <Tabs.Screen name="focus" options={{ title: 'Focus' }} />
-          <Tabs.Screen name="tasks" options={{ title: 'Tasks' }} />
-          <Tabs.Screen name="battle" options={{ title: 'Battle' }} />
-          <Tabs.Screen name="pokemon" options={{ title: 'Pokemon' }} />
-          <Tabs.Screen name="profile" options={{ title: 'Profile' }} />
+          <Tabs.Screen name="Focus" options={{ title: 'Focus' }} />
+          <Tabs.Screen name="Tasks" options={{ title: 'Tasks' }} />
+          <Tabs.Screen name="Battle" options={{ title: 'Battle' }} />
+          <Tabs.Screen name="Pokemon" options={{ title: 'Pokemon' }} />
+          <Tabs.Screen name="Profile" options={{ title: 'Profile' }} />
         </Tabs>
       </View>
     </TaskProvider>
